@@ -1,5 +1,1 @@
-version: "3"
 
-services:
-  vpn-server:
-    image: fcojean/l2tp-ipsec-vpn-server
