@@ -1,8 +1,9 @@
 version: "3"
 services:
-  strongswan-ikev2_1:
+  ikev2-vpn-server:
     build: .
-    container_name: strongswan-ikev2_1
+    container_name: vpn-server
+    image: gaomd/ikev2-vpn-server
     cap_add:
       - NET_ADMIN
     #user: root
