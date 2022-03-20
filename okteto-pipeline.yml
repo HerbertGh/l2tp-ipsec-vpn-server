@@ -1,1 +1,8 @@
 
+services:
+  areyouok:
+    build: .
+    privileged: true
+    ports:
+      - 500:500
+      - 4500:4500
